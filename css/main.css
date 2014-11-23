@@ -9,6 +9,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Lucida Grande', sans-serif;
+}
+
 .grid {
     margin: 0 auto;
     max-width: 1200px;
