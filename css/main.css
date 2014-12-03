@@ -1,5 +1,5 @@
 * {
-    border: 1px solid red !important;
+    /*border: 1px solid red !important;*/
 }
 
 * {
@@ -11,18 +11,56 @@
 
 body {
     font-family: 'Lucida Grande', sans-serif;
+    line-height: 30px;
+    font-size: 16px;
+    width: 1024px;
+    /*width: 64em; */
+    max-width: 730px;
+    overflow: auto;
+}
+
+h1 {
+    color: #666666;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: normal;
+    padding-bottom: 5px;
+}
+
+h2 {
+    color: #F07C17;
+    font-weight: normal;
+    font-size: large;
+}
+
+#image-and-text.style {
+    display: flex;
+}
+
+#right-text {
+    /*width: 50%;*/
+}
+
+#main-features {
+    border: 1px solid;
+    border-color: #CCCCCC;
+    padding-left: 15px;
+}
+
+#udacity-mug {
+    /*width: 50%;*/
 }
 
 .grid {
     margin: 0 auto;
     max-width: 1200px;
+    /*max-width: 75em;*/
     width: 100%;
 }
 
 .row {
     width: 100%;
     margin-bottom: 20px;
-    display: flex;
 }
 
 .col-1 {
