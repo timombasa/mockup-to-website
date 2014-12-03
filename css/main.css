@@ -24,7 +24,8 @@ h1 {
     color: #666666;
     text-align: center;
     /*font-size: xx-large;*/
-    padding-top: 15px;
+    padding-top: 24px;
+    padding-left: 15px;
     font-size: 48px;
     font-weight: 400;
 }
