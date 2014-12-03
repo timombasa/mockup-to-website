@@ -16,7 +16,7 @@ body {
     width: 1024px;
     height: 885px;
     /*width: 64em; */
-    max-width: 730px;
+    max-width: 720px;
     overflow: auto;
 }
 
@@ -36,28 +36,24 @@ h2 {
     font-size: large;
 }
 
-#image-and-text {
-    /*margin: 0 0 5px -15px;*/
-}
-
 #right-text {
-    /*width: 50%;*/
     padding: -5px 0 0 0px;
-    margin: -20px 0 5px -135px;
+    margin: -20px 0 5px -40px;
     /*border-left: 100px;*/
-
 }
 
 #main-features {
     border: 1px solid; 
     border-color: #CCCCCC;
-    border-spacing: 100px;
+    /*border-spacing: 100px;*/
     padding-left: 32px;
-    padding-top: 10px; 
-    width: 374px;
-    height: 223px;
+    padding-top: 5px;
+    /*padding-bottom: -85px;*/
+    width: 365px;
+    height: 200px;
+    line-height: 35px;
     /*top, right, bottom, left*/
-    margin: 2px 25px 2px 35px;
+    margin: -10px 25px -10px 40px;
 }
 
 #udacity-mug {
