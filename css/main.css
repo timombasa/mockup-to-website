@@ -22,19 +22,19 @@ body {
 h1 {
     color: #666666;
     text-align: center;
-    font-size: xx-large;
+    font-size: x-large;
     font-weight: normal;
     padding-bottom: 5px;
 }
 
 h2 {
     color: #F07C17;
-    font-weight: normal;
+    font-weight: bold;
     font-size: large;
 }
 
 #image-and-text.style {
-    display: flex;
+    /*display: flex;*/
 }
 
 #right-text {
@@ -48,7 +48,11 @@ h2 {
 }
 
 #udacity-mug {
-    /*width: 50%;*/
+    width: 374px;
+    height: 374px;
+    padding-left: 40px;
+    /*padding-top: 128px;*/
+    /*padding-bottom: 502px;*/
 }
 
 .grid {
