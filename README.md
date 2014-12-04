@@ -1,7 +1,7 @@
 mockup-to-website
 =================
 
-Practising using markup and styling to convert mockups to websites...down to the last pixel
+Practising using markup and styling to convert mockups to websites...down to the last pixel.
 
 Inspired by version 2 of Project 1 in Udacity's Front-End Web Dev. Nanodegree.  
 I was provided with a design mockup as a PDF-file and must replicate that design in HTML and CSS. 
