@@ -40,17 +40,17 @@ h2 {
 
 .main-features {
     border: 1px solid #ccc; 
-    padding: 5px 0 0 32px;
+    padding: 5px 0 20px 32px;
     width: 365px;
     height: 200px;
-    line-height: 35px;
-    margin: -10px 35px -10px 35px;
+    line-height: 45px;
+    /*top, right, bottom, left*/
+    margin: 8px 35px -10px 40px;
 }
 
 .udacity-mug {
     width: 400px;
     height: 400px;
-    /*top, right, bottom, left*/
     padding:2px 0 0 26px;
     /*padding-right: 5px;*/
     /*padding-top: 128px;*/
