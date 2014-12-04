@@ -1,5 +1,5 @@
 * {
-    /*border: 1px solid red !important;*/
+    border: 1px solid red !important;
 }
 
 * {
@@ -10,56 +10,47 @@
 }
 
 body {
-    font-family: 'Lucida Grande', sans-serif;
-    line-height: 30px;
-    font-size: 16px;
+    /*font-size: 16px; line-height: 30px;*/
+    font: 16px/30px "Lucida Grande", sans-serif;
     width: 1024px;
     height: 885px;
-    /*width: 64em; */
     max-width: 720px;
     overflow: auto;
 }
 
 h1 {
-    color: #666666;
+    color: #666;
     text-align: center;
-    /*font-size: xx-large;*/
-    padding-top: 24px;
-    padding-left: 30px;
+    padding: 24px 0 0 30px;
     font-size: 48px;
     font-weight: 400;
 }
 
 h2 {
-    color: #F07C17;
-    font-weight: 600;
-    font-size: large;
+    color: #f07c17;
+    /*weight, then size*/
+    font: 600 large;
 }
 
-#right-text {
+.right-text {
     padding: -5px 0 0 0px;
-    margin: -20px 0 5px -40px;
-    /*border-left: 100px;*/
+    margin: -20px 0 5px -140px;
 }
 
-#main-features {
-    border: 1px solid; 
-    border-color: #CCCCCC;
-    /*border-spacing: 100px;*/
-    padding-left: 32px;
-    padding-top: 5px;
-    /*padding-bottom: -85px;*/
+.main-features {
+    border: 1px solid #ccc; 
+    padding: 5px 0 0 32px;
     width: 365px;
     height: 200px;
     line-height: 35px;
     /*top, right, bottom, left*/
-    margin: -10px 25px -10px 40px;
+    margin: -10px 35px -10px 35px;
 }
 
-#udacity-mug {
+.udacity-mug {
     width: 400px;
     height: 400px;
-    padding-left: 40px;
+    padding-left:40px;
     /*padding-right: 5px;*/
     /*padding-top: 128px;*/
     /*padding-bottom: 502px;*/
