@@ -44,14 +44,14 @@ h2 {
     width: 365px;
     height: 200px;
     line-height: 35px;
-    /*top, right, bottom, left*/
     margin: -10px 35px -10px 35px;
 }
 
 .udacity-mug {
     width: 400px;
     height: 400px;
-    padding-left:40px;
+    /*top, right, bottom, left*/
+    padding:2px 0 0 26px;
     /*padding-right: 5px;*/
     /*padding-top: 128px;*/
     /*padding-bottom: 502px;*/
