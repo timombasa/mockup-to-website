@@ -33,28 +33,27 @@ h2 {
     font: 600 large;
 }
 
-.right-text {
+/*tweak margins of headings, line-height of <p>*/
+
+#right-text {
     padding: 0 0 0 0;
     margin: -20px 0 5px 0;
 }
 
 .main-features {
     border: 1px solid #ccc; 
-    padding: 5px 0 20px 32px;
-    width: 365px;
-    height: 200px;
-    line-height: 45px;
+    padding: 2px 10px 30px 40px;
+    width: 373px;
+    height: 228px;
+    line-height: 1.5em;
     /*top, right, bottom, left*/
-    margin: 8px 35px -10px 40px;
+    margin: 8px 25px -10px 22px;
 }
 
 .udacity-mug {
     width: 400px;
     height: 400px;
     padding:2px 0 0 26px;
-    /*padding-right: 5px;*/
-    /*padding-top: 128px;*/
-    /*padding-bottom: 502px;*/
 }
 
 .grid {
