@@ -11,11 +11,14 @@
 
 body {
     /*size, then line-height*/
-    font: 16px/30px "Verdana", sans-serif;
+    font: 16px "Lucinda Grande", sans-serif;
     width: 1024px;
     height: 885px;
     max-width: 720px;
     overflow: auto;
+    color: #666666;
+    line-height: 2;
+    letter-spacing: 0.8px;
 }
 
 h1 {
@@ -25,12 +28,25 @@ h1 {
     /*top, right, bottom, left*/
     font-size: 48px;
     font-weight: 400;
+
+ /*    padding-bottom: 21px;
+ padding-top: 21px;
+ font-size: 48px;
+ letter-spacing: 0;*/
 }
 
 h2 {
     color: #f07c17;
     /*weight, then size*/
     font: 600 large;
+
+ /*padding-bottom: 22px;
+ font-size: 21px;
+ padding-top: 0;
+ margin-top: 0;
+ letter-spacing: 3.5px;*/
+
+
 }
 
 /*tweak margins of headings, line-height of <p>*/
@@ -38,17 +54,23 @@ h2 {
 .right-text {
     padding: 0 0 0 0;
     margin: -20px 0 5px 0;
-    max-width: 65px;
 }
 
 .main-features {
     border: 1px solid #ccc; 
-    padding: 2px 10px 40px 40px;
+    padding: 2px 10px 60px 45px;
     width: 373px;
     height: 228px;
     line-height: 1.5em;
     /*top, right, bottom, left*/
     margin: 8px 25px -10px 22px;
+
+     /*padding-top: 31px;
+ padding-bottom: 30px;
+ padding-left: 29px;
+ margin-top: 30px;*/
+
+
 }
 
 .udacity-mug {
@@ -56,6 +78,18 @@ h2 {
     height: 400px;
     padding:2px 0 0 26px;
 }
+
+/*toggle opacity and view-index*/
+.mockup-overlay {
+    left: 15px;
+    margin: 0;
+    opacity: 0.4;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    z-index: 1000;
+}
+
 
 .grid {
     margin: 0 auto;
