@@ -34,12 +34,12 @@ h1 {
 h2 {
     color: #f07c17;
     /*weight, then size*/
-    font: 800 large;
+    font-size: 40px;
+    font-weight: 800;
     margin-top: 0;
     font-size: 26px;
     padding-bottom: 34px;
-    padding-top: 0;
-    
+    padding-top: 0;    
 }
 
 #main-features-heading {
