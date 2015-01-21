@@ -24,12 +24,15 @@ body {
 h1 {
     color: #666666;
     text-align: center;
-    padding: 24px 10px 0 90px;
     /*top, right, bottom, left*/
-    font-size: 48px;
-    font-weight: 400;
+    padding: 24px 70px 0 0px;
+    font-size: 52px;
+    font-weight: 600;
+    /*padding-bottom: 21px;*/
+    /*padding-top: 21px;*/
+    letter-spacing: 0;
 
- /*    padding-bottom: 21px;
+ /*    
  padding-top: 21px;
  font-size: 48px;
  letter-spacing: 0;*/
@@ -38,15 +41,11 @@ h1 {
 h2 {
     color: #f07c17;
     /*weight, then size*/
-    font: 600 large;
-
- /*padding-bottom: 22px;
- font-size: 21px;
- padding-top: 0;
- margin-top: 0;
- letter-spacing: 3.5px;*/
-
-
+    font: 800 large;
+    margin-top: 0;
+    font-size: 26px;
+    padding-bottom: 34px;
+    padding-top: 0;
 }
 
 /*tweak margins of headings, line-height of <p>*/
