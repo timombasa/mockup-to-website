@@ -42,11 +42,23 @@ h2 {
     padding-top: 0;    
 }
 
-#main-features-heading {
-    padding-left: 5px;
+ul {
+    /*margin-left: 15px;*/
+    /*padding-left: 15px;*/
 }
 
 /*tweak margins of headings, line-height of <p>*/
+
+.box {
+ border-style: solid;
+ border-width: 1px;
+ border-color: #cccccc;
+ padding-top: 31px;
+ padding-bottom: 30px;
+ padding-left: 29px;
+ margin-top: 30px;
+}
+
 
 .right-text {
     padding: 0 0 0 0;
