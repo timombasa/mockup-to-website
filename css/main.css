@@ -3,30 +3,31 @@ body {
 }
 
 * {
-    font: "Kalimati", Verdana, sans-serif;
-    font-size: 16px;
+    font: 16px "Kalimati", Verdana, sans-serif;
     color: #666666;
     line-height: 200%;
 }
 
-h1  {
+
+h1 {
     margin-bottom: 5px;
     font-size: 48px;
     padding: 25px;
 }
 
+
 h2 {
     color: #f07c17;
     font-size: 24px;
-    margin-top: 0px;
-    margin-bottom: 30px; 
+    margin: 0 0 30px 0;
     letter-spacing: 0.1em;   
 }
 
+
 .box {
-     border: 1px solid #666666; 
-     padding: 30px;
-     margin-top: 30px;
+    border: 1px solid #666666; 
+    padding: 30px;
+    margin-top: 30px;
 }
 
 
